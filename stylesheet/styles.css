@@ -1,0 +1,184 @@
+body {
+    background: rgb(255, 255, 255);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #faf7f2;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: #10375C;
+    padding: 15px 0;
+    border-bottom: 2px solid #F3C623;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.home-text h1 {
+     font-family: 'Homemade Apple', cursive;
+    font-size: 2rem;
+    color: #10375C;
+}
+
+
+.home-text button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #10375C;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-text button:hover {
+    background-color: #ffffff;
+    color: #10375C;
+    border: #10375C;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.home-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#about {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About title with Homemade Apple font */
+.about-title {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+    color: #10375C;
+}
+
+/* About text */
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #000000;
+}
+
+
+/* Menu Section */
+#menu {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#menu h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #10375C;
+}
+
+/* CATEGORY HEADERS (left aligned) */
+#menu h3 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-top: 25px;
+    color: #EB8317;
+}
+
+#menu ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#menu li {
+    margin: 8px 0;
+    padding: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: #10375C;
+    border-top: 2px solid #F3C623;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Mobile */
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 0.9rem;
+    }
+
+    #home h1 {
+        font-size: 1.5rem;
+    }
+
+    #home button {
+        width: 80%;
+    }
+}
+
